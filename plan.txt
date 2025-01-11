@@ -1,0 +1,32 @@
+trips.trip_id,		trips.trip_headsign	trips.route_id
+
+						routes.route_id		route.route_short_name	route.route_long_name
+
+stop_times.trip_id,	stop_times.stop_id,										stop_times.arrival_time, stop_times.departure_time
+
+			stops.stop_id
+
+
+
+
+
+
+
+
+
+The short name for the route (Table column name: Route Short Name); 					-> route.route_short_name
+The long name for the route (Table column name: Route Long Name);					-> route.route_long_name 	
+The service ID for the trip (Table column name: Service ID);						-> trips.service_id	
+The head sign for the trip (otherwise known as destination sign) (Table column name: Heading Sign);	-> trips.trip_headsign
+The scheduled arrival time of the vehicle (Table column name: Scheduled Arrival Time);			-> stop_times.arrival_time
+The live arrival time of the vehicle (Table column name: Live Arrival Time);				-> 
+The live geographic position of vehicle (Table column name: Live Position).				->	
+
+
+
+
+
+trips -> trip_id -> stop_times 
+
+
+trips -> 
